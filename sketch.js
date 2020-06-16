@@ -45,3 +45,11 @@ function keyPressed(){
       Matter.Body.applyForce(ball1.body,ball1.body.position,{x:-0.23,y:-0.0017});
     }
 }
+function mouseDragged(){
+    Matter.Body.setPosition(ball1.body,{x:mouseX,y:mouseY})
+}
+function mouseReleased(){
+    Matter.Body.applyForce(ball1.body,ball1.body.position,{x:0.73,y:0.9517});   
+  
+   
+}
