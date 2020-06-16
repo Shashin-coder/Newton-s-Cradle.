@@ -14,10 +14,10 @@ function setup(){
 
 
     ground = new Ground(600,75,500,35);
- ball1=new Balls(500,375,"pink")
- ball2=new Balls(570,375,"pink")
- ball3=new Balls(640,375,"pink")
- ball4=new Balls(710,375,"pink")
+ ball1=new Balls(500,375,"violet")
+ ball2=new Balls(570,375,"indigo")
+ ball3=new Balls(640,375,"blue")
+ ball4=new Balls(710,375,"green")
 
  chain=new Chain(ball1.body,ground.body,-100,0);
  chain1=new Chain(ball2.body,ground.body,-30,0);
